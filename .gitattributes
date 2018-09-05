@@ -46,9 +46,6 @@
 *.tif filter=lfs diff=lfs merge=lfs -text
 *.tiff filter=lfs diff=lfs merge=lfs -text
 
-Builds/* linguist-vendored=true
-Library/* linguist-vendored=true
-obj/* linguist-vendored=true
-Packages/* linguist-vendored=true
-ProjectSettings/* linguist-vendored=true
-UnityPackageManager/* linguist-vendored=true
+*.meta linguist-language=C#
+*.unity linguist-language=C#
+*.prefab linguist-language=C#
